@@ -2,8 +2,6 @@
 #include <string>
 #include <cmath>
 
-#define MIN(a, b) ((a) < (b) ? (a) : (b))
-
 bool starts_with(const std::string& s, const std::string& prefix) {
 	 auto size = prefix.size();
 	 if (s.size() < size) return false;
